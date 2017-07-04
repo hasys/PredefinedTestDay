@@ -1,0 +1,10 @@
+#automation
+automation/7.1.0-SNAPSHOT
+automation/*.zip
+
+#Maven
+target/
+
+#IDE
+.idea/
+predefined.iml
