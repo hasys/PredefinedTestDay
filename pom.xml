@@ -22,7 +22,7 @@
 
   <groupId>com.github.hasys.predefined</groupId>
   <artifactId>predefined</artifactId>
-  <version>1.0.0.Final</version>
+  <version>1.0.1.Final</version>
   <packaging>jar</packaging>
 
   <name>Project to use in Test day</name>
@@ -37,6 +37,7 @@
       <groupId>org.drools</groupId>
       <artifactId>drools-core</artifactId>
       <version>7.0.0.Final</version>
+      <scope>provided</scope>
     </dependency>
   </dependencies>
 </project>
