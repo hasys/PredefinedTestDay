@@ -8,7 +8,7 @@ fi
 
 echo "Prepare Wildfly..."
 if [ ! -f wildfly-10.1.0.Final.zip ]; then
-    wget http://download.jboss.org/wildfly/10.1.0.Final/wildfly-10.1.0.Final.zip
+    curl "http://download.jboss.org/wildfly/10.1.0.Final/wildfly-10.1.0.Final.zip" -o "wildfly-10.1.0.Final.zip"
 fi
 unzip -q wildfly-10.1.0.Final.zip -d ./
 mv wildfly-10.1.0.Final $VERSION
