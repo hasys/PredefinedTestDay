@@ -1,5 +1,5 @@
 AUTOMATION_DIRECTORY=`pwd -P`
-VERSION=7.1.0-SNAPSHOT
+VERSION=7.2.0-SNAPSHOT
 
 echo "Remove old version..."
 if [ -d "$VERSION" ]; then
